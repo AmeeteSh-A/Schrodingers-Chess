@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://bjoti37wmae66"]
+
+[node name="Tile" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1072.0
+offset_bottom = -568.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PieceDisplay" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ProbLabel" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "100%"
+horizontal_alignment = 1
+vertical_alignment = 2
