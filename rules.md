@@ -120,7 +120,7 @@ If a Pawn tries to move **forward** (straight) into a square that contains a hid
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="45%" valign="top">
 
 ### The Broom (Entropy Sweeping)
 Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
@@ -128,7 +128,7 @@ Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
 * This is a strategic tool to clean up your own board clutter and unfreeze tiles.
 
 </td>
-<td width="40%" valign="top">
+<td width="55%" valign="top">
     <img src="https://placehold.co/400x300?text=GIF:+Brooming+Mechanic" alt="Brooming" width="100%">
 </td>
 </tr>
