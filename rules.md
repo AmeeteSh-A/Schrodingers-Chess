@@ -47,7 +47,7 @@ When a piece moves, it does not simply go from A to B. It enters a state of **Su
 
 </td>
 <td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Superposition+Scatter" alt="Superposition" width="100%">
+    <img src="https://github.com/user-attachments/assets/fa2d193d-4565-451e-8bdb-8ef4b554058e" alt="Superposition" width="100%">
 </td>
 </tr>
 </table>
@@ -61,7 +61,7 @@ A piece remains in a cloud until it is **Observed**. Observation happens in thre
 <table>
 <tr>
 <td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Renormalization+Math" alt="Renormalization" width="100%">
+    <img src="https://github.com/user-attachments/assets/893891df-24e6-47bb-9752-f3e19ecb4e79" alt="Renormalization" width="100%">
 </td>
 <td width="60%" valign="top">
 
@@ -87,7 +87,7 @@ Too much uncertainty creates instability.
 
 </td>
 <td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Frozen+Tile+Overlay" alt="Frozen Tile" width="100%">
+    <img src="https://github.com/user-attachments/assets/96ac8a5a-8ee6-47cc-9a98-48233e4bf0a5" alt="Frozen Tile" width="100%">
 </td>
 </tr>
 </table>
@@ -99,7 +99,7 @@ Too much uncertainty creates instability.
 <table>
 <tr>
 <td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Pawn+Headbonk" alt="Headbonk" width="100%">
+    <img src="https://github.com/user-attachments/assets/37ca795d-6524-40d5-b103-7758555ef068" alt="Headbonk" width="100%">
 </td>
 <td width="60%" valign="top">
 
@@ -129,7 +129,7 @@ Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
 
 </td>
 <td width="55%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Brooming+Mechanic" alt="Brooming" width="100%">
+    <img src="https://github.com/user-attachments/assets/e77e2265-5747-4222-9420-1b130812a6f3" alt="Brooming" width="100%">
 </td>
 </tr>
 </table>
@@ -137,7 +137,7 @@ Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
 <table>
 <tr>
 <td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Pawn+Promotion" alt="Promotion" width="100%">
+    <img src="https://github.com/user-attachments/assets/3bba4f84-a342-42af-ab88-2e69d7b03b32" alt="Promotion" width="100%">
 </td>
 <td width="60%" valign="top">
 
