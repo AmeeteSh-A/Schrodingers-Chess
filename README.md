@@ -4,7 +4,7 @@
 
 ***Current Status:** Fully Functional Prototype.*
 # Schrödinger's Chess 🐈‍⬛📦⚛️
-![Engine](https://img.shields.io/badge/Engine-Godot_4-blue)![Language](https://img.shields.io/badge/Language-C%23_.NET-purple)![Netcode](https://img.shields.io/badge/Netcode-ENet-green)![License](https://img.shields.io/badge/License-MIT-orange)
+![Engine](https://img.shields.io/badge/Engine-Godot_4-blue) ![Language](https://img.shields.io/badge/Language-C%23_.NET-purple) ![Netcode](https://img.shields.io/badge/Netcode-ENet-green) ![License](https://img.shields.io/badge/License-MIT-orange)
 
 > **A multiplayer strategy engine blending classical chess with quantum mechanics, built in C# and Godot 4.**
 
