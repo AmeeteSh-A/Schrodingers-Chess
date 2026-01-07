@@ -56,7 +56,7 @@ When a piece moves, it does not simply go from A to B. It enters a state of **Su
 A piece remains in a cloud until it is **Observed**. Observation happens in three ways:
 1.  **Probing:** A player spends a token to check a square.
 2.  **Capture:** A player attempts to capture a ghost.
-3.  **Collision:** A piece tries to move through or land on a hidden real piece.
+3.  **Collision:** A pawn tries to land on a hidden real piece and *'headbonks'*.
 
 <table>
 <tr>
@@ -124,8 +124,8 @@ If a Pawn tries to move **forward** (straight) into a square that contains a hid
 
 ### The Broom (Entropy Sweeping)
 Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
-* If a solid piece moves along a path (e.g., a Rook sliding A1 to A8), it **sweeps away** any friendly ghosts in its path.
-* This is a strategic tool to clean up your own board clutter and unfreeze tiles.
+* If a solid piece moves along a path (e.g., a Rook sliding A1 to A8), it **sweeps away** any friendly ghosts in its path (from the opponent's POV).
+* This is a strategic tool to clean up your own board clutter which also ensures pieces are never blocked/obstructed by their own/friendly ghosts.
 
 </td>
 <td width="55%" valign="top">
