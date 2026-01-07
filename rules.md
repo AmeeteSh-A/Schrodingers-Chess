@@ -52,18 +52,18 @@ When a piece moves, it does not simply go from A to B. It enters a state of **Su
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Probing+and+Math" alt="Probing" width="100%">
-</td>
-<td width="60%" valign="top">
-
 ### 2. Wave Function Collapse (Revelation)
 A piece remains in a cloud until it is **Observed**. Observation happens in three ways:
 1.  **Probing:** A player spends a token to check a square.
 2.  **Capture:** A player attempts to capture a ghost.
 3.  **Collision:** A piece tries to move through or land on a hidden real piece.
+
+<table>
+<tr>
+<td width="40%" valign="top">
+    <img src="https://placehold.co/400x300?text=GIF:+Renormalization+Math" alt="Renormalization" width="100%">
+</td>
+<td width="60%" valign="top">
 
 ### 3. Renormalization (The Math of Misses)
 If you Probe or Attack a ghost and the real piece is **NOT** there:
@@ -127,14 +127,25 @@ Solid pieces (Kings, Pawns, and Revealed Pieces) act as "Brooms."
 * If a solid piece moves along a path (e.g., a Rook sliding A1 to A8), it **sweeps away** any friendly ghosts in its path.
 * This is a strategic tool to clean up your own board clutter and unfreeze tiles.
 
+</td>
+<td width="40%" valign="top">
+    <img src="https://placehold.co/400x300?text=GIF:+Brooming+Mechanic" alt="Brooming" width="100%">
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="40%" valign="top">
+    <img src="https://placehold.co/400x300?text=GIF:+Pawn+Promotion" alt="Promotion" width="100%">
+</td>
+<td width="60%" valign="top">
+
 ### Promotion
 There are no "Quantum Pawns."
 * If a solid pawn reaches the 8th rank, it immediately promotes to a **Queen**.
 * This Queen is solid/revealed initially, but will enter superposition on its next move.
 
-</td>
-<td width="40%" valign="top">
-    <img src="https://placehold.co/400x300?text=GIF:+Brooming+Mechanic" alt="Brooming" width="100%">
 </td>
 </tr>
 </table>
