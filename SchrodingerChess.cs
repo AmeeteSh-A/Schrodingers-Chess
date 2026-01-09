@@ -587,7 +587,7 @@ public partial class SchrodingerChess : Node
         return false;
     }
 
-    private List<Point> CalculateGhosts(int startR, int startC, int targetR, int targetC, PieceType type, int team)
+    private List<Point> CalculateGhosts(int startR, int startC, int targetR, int targetC, PieceType type, int team) //#4
     {
         List<Point> validGhosts = new List<Point>();
         int dr = targetR - startR; int dc = targetC - startC;
@@ -617,17 +617,27 @@ public partial class SchrodingerChess : Node
 
         foreach (var d in dirs) {
             int gr = startR + d.R; int gc = startC + d.C;
+            
             if (gr < 0 || gr > 7 || gc < 0 || gc > 7) continue;
             if (IsFrozen(gr, gc)) continue; 
+            if (realBoard[gr, gc] != -1) {
+                if (gr != targetR || gc != targetC) continue;
+            }
+
+            // solid
             if (ghostBoard[gr, gc].VisiblePiece != -1) continue;
+            
+            // >99 ghost
             bool isCertaintyOccupied = false;
             foreach (var existingGhost in ghostBoard[gr, gc].Ghosts) {
                 if (existingGhost.Probability > 0.99f) { isCertaintyOccupied = true; break; }
             }
             if (isCertaintyOccupied) continue;
+
             if (type != PieceType.Knight) { 
-            if (!IsPathClear(startR, startC, gr, gc, team)) continue; 
+                if (!IsPathClear(startR, startC, gr, gc, team)) continue; 
             }
+
             bool exists = false;
             foreach (var p in validGhosts) if (p.R == gr && p.C == gc) exists = true;
             if (!exists) validGhosts.Add(new Point(gr, gc));
